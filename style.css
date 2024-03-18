@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: white;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  height: 85%;
+  width: 100%;
+  background-color: #111;
+  display: flex;
+  padding: 5vw 10vw;
+}
+#left{
+  height: 100%;
+  width: 45%;
+  background-color: #333;
+  /* background-image: url(./Audio&Images/5403_4.jpg); */
+  background-size: cover;
+  background-position: center;
+
+
+}
+#right{
+  width: 55%;
+  height: 100%;
+  /* background-color: blue; */
+  padding: 0 3vw;
+
+}
+#right h3{
+  font-size: 20px;
+}
+#all-songs{
+  /* background-color: red; */
+  height: 85%;
+  margin-top: 30px;
+}
+.song-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #5a5a5a;
+  padding: 5px 5px;
+}
+.song-card:hover{
+  background-color: #444;
+}
+/* .song-card:active{
+  scale: 0.9;
+} */
+.song-card:nth-last-child(1){
+  /* background-color: red; */
+  border-bottom: 1px solid #5a5a5a;
+}
+.song-card .part1{
+   display: flex;
+   align-items: center;
+   pointer-events: none;
+}
+.song-card img{
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+}
+.song-card h2{
+  font-size: 10px;
+  font-weight: 600;
+}
+.song-card h6{
+  font-size: 10px;
+  font-weight: 500;
+}
+#player{
+  height: 15%;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+#player h3{
+  background-color: rgb(30, 30, 30,0.737);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+#player h3 i {
+  font-size: 20px;
+}
+#player h3:active{
+  scale: 0.9;
+}
